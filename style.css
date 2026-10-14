@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Love+Ya+Like+A+Sister&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --primary: #000;
+    --secondary: #FFFDF5;
+    --accent: #FFE30C;
+    --contour: #D9D9D9;
+
+    --normal: 16px;
+    --cta-size : 20px;
+}
+
+* {
+    background-color: var(--secondary);
+    margin: 0;
+    padding: 0;
+}
+
+.love-font{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+}
+
+nav{
+    height:10%;
+    width: 100%;
+    padding: 32px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid var(--contour);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    font-size: var(--normal);
+}
+
+#nav-cta{
+    width: 178px;
+    height: 36px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 8px;
+    font-size: var(--cta-size);
+}
+
+.nav-button:hover{
+    border-bottom: 3px solid var(--accent);
+}
