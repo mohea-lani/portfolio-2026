@@ -1,13 +1,121 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio 2026 Mohealani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <header>
-      <h1>My portfolio</h1>
-    </header>
-    <p>Hello World</p>
-  </body>
-  <footer></footer>
+    <nav>
+            <img id="nav-logo" src="ressources/big-logo.png" width="51px" height="53px">
+            <div id="nav-bar">
+                <div id="home-page" class="nav-button montserrat">
+                    <a class="nav-link">Home</a>
+                </div>
+                <div id="projects-page" class="nav-button montserrat">
+                    <a class="nav-link">Projects</a>
+                </div>
+                <div id="blog-page" class="nav-button montserrat">
+                    <a class="nav-link">Blog</a>
+                </div>
+                <div id="about-page" class="nav-button montserrat">
+                    <a class="nav-link">About</a>
+                </div>
+                <div id="contact" class="nav-button montserrat">
+                    <a class="nav-link">Contact</a>
+                </div>
+                <button id="nav-cta" class="yellow-cta-button love-font">Let's meet</button>
+            </div>
+        </nav>
+        <section id="hero-section">
+            <div id="hero-left">
+                <div id="hero-left-title">
+                    <h1 class="love-font">PORTFOLIO 2026</h1>
+                </div>
+                <div id="hero-left-themes">
+                    <p class="hero-theme montserrat">Web</p>
+                    <p class="hero-theme montserrat">Communication</p>
+                    <p class="hero-theme montserrat">Marketing</p>
+                </div>
+            </div>
+            <div id="hero-right">
+                <img id="hero-img" src="">
+            </div>
+        </section>
+        <section id="me-section" class="section">
+            <div id="me-title">
+                <h2 class="love-font">Hello there !</h2>
+                <p class="subtitles montserrat">The woman behind the scenes</p>
+            </div>
+            <div id="me-container" class="title-section">
+                <div id="me-presentation" class="montserrat">
+                    <h3 class="love-font">I turn <span class="special">curiosity</span> into projects</h3>
+                    <p>Hello ! I am a student in <span class="italic">Entrepreneurial management of digital projects and strategy</span>at CCI Campus Strasbourg.</p>
+                    <p>Coming from a scientific background, I am transitioning into the digital world with the following goals:</p>
+                    <p><span class="bold">understanding</span> problems</p>
+                    <p><span class="bold">designing</span> useful solutions</p>
+                    <p><span class="bold">creating</span> digital experiences that actually make sense.</p>
+                    <p>UX, Web, digital strategy... I explore, experiment, and build my path project by project.</p>
+                    <button id="me-cta" class="secondary-button">Plan a meeting</button>
+                </div>
+                <div id="me-photo">
+                    <img id="me-img" src="">
+                    <p id="me-name" class="love-font">Mohealani Chimin</p>
+                </div>
+            </div>
+        </section>
+        <section id="work-section" class="section">
+            <div id="work-title" class="title-section">
+                <h2 class="love-font">My main work</h2>
+                <p class="subtitles montserrat">The scenes</p>
+            </div>
+            <div id="portfolio-card" class="active-card card">
+                <h3 class="love-font">Portfolio construction</h3>
+                <p class="montserrat">My very first visible project. A portfolio is a scene where an artist exposes this thinking and creativity.</p>
+                <div class="card-bottom">
+                    <button id="see-more-portfolio" class="tertiary-button montserrat">See more</button>
+                    <div class="tools-logo">
+                        <img id="figma">
+                        <img id="vs-code">
+                        <img id="notion">
+                    </div>
+                </div>
+            </div>
+            <div class="inactive-card card">
+                <h3 class="love-font">Project in Progress</h3>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div id="footer-logo-social">
+            <img id="footer-logo">
+            <div id="footer-social">
+                <img id="logo-github" class="tiny-logo">
+                <img id="linkedin" class="tiny-logo">
+            </div>
+        </div>
+        <div id="footer-nav" class="montserrat">
+            <div class="footer-section">
+                <a class="bold">Home</a>
+                <a class="plain-link" href="home.html/hero-section">Main work</a>
+            </div>
+            <div class="footer-section">
+                <a class="bold">Projects</a>
+            </div>
+            <div class="footer-section">
+                <a class="bold">Blog</a>
+            </div>
+            <div class="footer-section">
+                <a class="bold">About</a>
+            </div>
+            <div>
+                <a class="bold">Contact</a>
+            </div>
+        </div>
+        <div id="footer-personnalisation">
+            <p class="love-font">Made with love and curiosity</p>
+        </div>
+    </footer>
 </html>
